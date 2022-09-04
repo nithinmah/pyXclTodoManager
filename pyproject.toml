@@ -1,0 +1,23 @@
+[project]
+name = "pyXclTodoManager"
+version = "0.0.1"
+authors = [
+  { name="Nithin Mahesh", email="nithin.m.hariharan@gmail.com" },
+]
+description = "A Todo Excel manager, sample excel sheet included"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nithimah/pyXclTodoManager"
+"Bug Tracker" = "https://github.com/nithimah/pyXclTodoManager/issues"
+
+[build-system]
+requires = ["hatchling", "import openpyxl", "win32gui", "pyautogui", "pymsgbox", "datetime", "currentframe", "sys", "time"]
+build-backend = "hatchling.build"
