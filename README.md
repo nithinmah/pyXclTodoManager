@@ -5,7 +5,4 @@ The TODOs can be entered directly in the excel sheet in the format expected or u
 Uses openpyxl to manipulate the excel and pyautogui for windows control and pymsgbox for reminder pop-ups
 
 ## snapshot of excel sheet
-assets/images/Capture.PNG
-
-
-
+![Capture](https://user-images.githubusercontent.com/112823950/188328574-bddcc502-0ee4-43c4-8912-db60fc611777.PNG)
